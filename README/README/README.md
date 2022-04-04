@@ -7,7 +7,8 @@ C:\Users\alexb\OneDrive\Desktop\PROJECT 1\README\README\Images\ELK NETWORK DIAGR
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config files may be used to install only certain pieces of it, such as Anisble, Filebeat, and Metricbeat.
 
-  - _TODO: Enter the playbook file._
+  - "C:\Users\alexb\OneDrive\Desktop\PROJECT 1\Ansible\ANSIBLE-PLAYBOOK.txt"
+
 
 This document contains the following details:
 - Description of the Topology
@@ -34,12 +35,12 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Name      | Function      | IP Address             | Operating System |
+|-----------|---------------|------------------------|------------------|
+|  Jump Box |    Gateway    | 10.1.0.4 52.161.105.21 |       Linux      |
+|   Web-1   | Ubuntu-Server |  10.1.0.5 13.78.213.10 |       Linux      |
+|   Web-2   | Ubuntu-Server |  10.1.0.6 13.78.213.10 |       Linux      |
+| ELKServer | Ubuntu-Server |        10.0.0.4        |       Linux      |
 
 ### Access Policies
 
@@ -53,11 +54,12 @@ Machines within the network can only be accessed by my Public IP Address and Jum
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+|    Name   | Publicly Accessible |        Allowed IP Addresses       |
+|-----------|---------------------|-----------------------------------|
+|  Jump Box |         Yes         |      73.170.31.143 via SSH 22     |
+|   Web-1   |          No         |        10.1.0.4 via SSH 22        |
+|   Web-2   |          No         |        10.1.0.4 via SSH 22        |
+| ELKServer |          No         | My Public IP Address via TCP 5601 |
 
 ### Elk Configuration
 
