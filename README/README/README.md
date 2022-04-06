@@ -111,21 +111,21 @@ In order to check that the ELK Server was running properly, I navigated to http:
 - sudo cat .ssh/id_rsa.pub
 - ssh [your username]@[jumpbox_IP_address]
 - sudo docker container list -a
-sudo docker start [container name]
-sudo docker attach [container name]
-cd /etc/ansible
-nano /etc/ansible/hosts
-nano ansible.config
-nano pentest.yml
-ansible-playbook [file name]
-sudo apt install docker.io
-sudo service docker start
-sudo systemctl status docker
-sudo systemctl start docker
-curl -L -O [web location of the file]
-dpkg -i [file name]
-http:/[IP address]:5601/app/kibana
-nano filebeat-config.yml
-nano filebeat-playbook.yml
-nano metricbeat-config.yml
-nano metricbeat-playbook.yml
+- sudo docker start [container name]
+- sudo docker attach [container name]
+- cd /etc/ansible
+- nano /etc/ansible/hosts
+- nano ansible.config
+- nano pentest.yml
+- ansible-playbook [file name]
+- sudo apt install docker.io
+- sudo service docker start
+- sudo systemctl status docker
+- sudo systemctl start docker
+- curl -L -O [web location of the file]
+- dpkg -i [file name]
+- http:/[IP address]:5601/app/kibana
+- nano filebeat-config.yml
+- nano filebeat-playbook.yml
+- nano metricbeat-config.yml
+- nano metricbeat-playbook.yml
