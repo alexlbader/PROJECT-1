@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![alt text](Diagrams/ELK-NETWORK-DIAGRAM.png)
+https://github.com/alexlbader/PROJECT1/blob/441733747ffb08146196d274b1001362153fd57f/Diagrams/ELK%20NETWORK%20DIAGRAM.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config files may be used to install only certain pieces of it, such as Anisble, Filebeat, and Metricbeat.
 
