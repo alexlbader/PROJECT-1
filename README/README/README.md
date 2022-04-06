@@ -107,10 +107,10 @@ In order to check that the ELK Server was running properly, I navigated to http:
 
 - The following list shows the specific commands a user will need to run in order to download the playbooks and configuration files:
 
-ssh-keygen
-sudo cat .ssh/id_rsa.pub
-ssh [your username]@[jumpbox_IP_address]
-sudo docker container list -a
+- ssh-keygen
+- sudo cat .ssh/id_rsa.pub
+- ssh [your username]@[jumpbox_IP_address]
+- sudo docker container list -a
 sudo docker start [container name]
 sudo docker attach [container name]
 cd /etc/ansible
