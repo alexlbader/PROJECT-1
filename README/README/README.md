@@ -74,7 +74,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-"C:\Users\alexb\OneDrive\Desktop\REDTEAM GITBASH\docker.png"
+![alt text](https://github.com/alexlbader/PROJECT1/blob/d7e849f04705d1491ef4816473893eb24b91edc4/Diagrams/docker.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
