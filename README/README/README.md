@@ -36,9 +36,9 @@ The configuration details of each machine may be found below.
 
 | Name      | Function      | IP Address             | Operating System |
 |-----------|---------------|------------------------|------------------|
-|  Jump Box |    Gateway    | 10.1.0.4 52.161.105.21 |       Linux      |
-|   Web-1   | Ubuntu-Server |  10.1.0.5 13.78.213.10 |       Linux      |
-|   Web-2   | Ubuntu-Server |  10.1.0.6 13.78.213.10 |       Linux      |
+|  Jump Box |    Gateway    | 10.1.0.4/52.161.105.21 |       Linux      |
+|   Web-1   | Ubuntu-Server |  10.1.0.5/13.78.213.10 |       Linux      |
+|   Web-2   | Ubuntu-Server |  10.1.0.6/13.78.213.10 |       Linux      |
 | ELKServer | Ubuntu-Server |        10.0.0.4        |       Linux      |
 
 ### Access Policies
