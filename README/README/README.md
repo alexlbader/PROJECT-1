@@ -55,7 +55,7 @@ A summary of the access policies in place can be found in the table below.
 
 |    Name   | Publicly Accessible |        Allowed IP Addresses       |
 |-----------|---------------------|-----------------------------------|
-|  Jump Box |         Yes         |      73.170.31.143 via SSH 22     |
+|  Jump Box |         Yes         |     My Public IP via SSH 22       |
 |   Web-1   |          No         |        10.1.0.4 via SSH 22        |
 |   Web-2   |          No         |        10.1.0.4 via SSH 22        |
 | ELKServer |          No         | My Public IP Address via TCP 5601 |
